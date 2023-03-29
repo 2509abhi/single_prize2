@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(218, 22%, 67%);
+      font-size: 16px;
+      font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a{
+      text-decoration-line: none;
+    }
+    #body{
+      margin: 2rem 20rem;
+    }
+    .cyan{
+      color: hsl(179, 62%, 43%);
+    }
+    .grey{
+      color: hsl(204, 13%, 78%);
+    }
+    white{
+      color: hsl(204, 43%, 93%);
+    }
+    .con1{
+      width: 36.8rem;
+      padding: 1rem 2rem;
+      background-color: #fff;
+    }
+    .flex{
+      display: flex;
+    }
+
+    .greyp{
+      margin: 2rem 1rem;
+    }
+    .con21{
+      background-color: hsl(179, 62%, 43%);
+      color: #fff;
+      width: 18rem;
+      padding: 1rem 2rem;
+    }
+    .con22{
+      background-color: hsl(179, 57%, 53%);
+      color: #fff;
+      width: 18rem;
+      padding: 1rem 2rem;
+    }
+    .btn{
+      text-align: center;
+      background-color: hsl(71, 73%, 54%);
+      display: inline-block;
+      width: 15rem;
+      height: 2rem;
+      padding-top: 1rem;
+      color: #fff;
+    }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    @media (max-width: 500px) {
+      #body{
+        margin: 2rem 4rem;
+      }
+        .flex{
+          display: block;
+        }
+    }
+  </style>
+</head>
+
+<body>
+  <main id="body">
+    <div class="con1">
+      <h1 class="cyan">Join our community</h1>
+
+      <h2>30-day, hassle-free money back guarantee</h2>
+
+      <p class="grey">Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.</p>
+
+    </div>
+    <div class="con2 flex">
+      <div class="con21">
+        <h2>Monthly Subscription</h2>
+        <div class="flex">
+        <h1>&dollar;29</h1>
+        <p class="grey greyp">per month</p>
+      </div>
+        <p class="white">Full access for less than &dollar;1 a day</p>
+
+        <a class="btn" href="#">Sign Up</a>
+
+      </div>
+      <div class="con22">
+        <h2>Why Us</h2>
+
+        <p class="white">Tutorials by industry experts
+          Peer &amp; expert code review
+          Coding exercises
+          Access to our GitHub repos
+          Community forum
+          Flashcard decks
+          New videos every week</p>
+
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Abhishek Bansal</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
